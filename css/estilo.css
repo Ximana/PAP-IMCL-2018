@@ -1,0 +1,66 @@
+
+
+*{
+    color: #4d4d4d;
+}
+
+h1{
+    font-size: 180%;
+}
+
+h2{
+    font-size: 25px;
+}
+
+h3{
+    font-size: 20px;
+}
+
+
+
+
+img#logo{
+    width: 200px;
+}
+
+.fundo-azul{
+    background-color: #1212da;
+}
+.fundo-amarelo{
+    background-color: #ff7f1b;
+}
+
+.texto-branco, a.item-menu{
+    color: white;
+}
+
+
+
+@media only screen
+and (max-device-width: 569px){
+
+    *{
+        font-size: small;
+    }
+   
+    .clear{
+        clear: both;
+    }
+
+
+
+
+}
+
+@media only screen
+and (min-device-width: 569px){
+
+
+    .imagem-lista{
+    width: 25%;
+}
+  figure.figura-imagem{
+    width: inherit;
+}
+
+}
